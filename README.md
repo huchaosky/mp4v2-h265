@@ -7,4 +7,11 @@
 ```shell
 sh build-libmp4v2-for-iOS.sh
 ```
+#### 编译 Android 可用静态库
+
+解压代码放入jni目录，将Android.mk Appclation.mk文件拷贝进入jni目录，执行ndk-build即可
+
+```shell
+sh ndk-build
+```
 
